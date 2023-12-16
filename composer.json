@@ -1,0 +1,17 @@
+{
+    "name": "muz4k/php-unit-demo",
+    "require": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Muz4k\\PhpUnitDemo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhammad Zaki",
+            "email": "mahmadzekoo@gmail.com"
+        }
+    ]
+}
