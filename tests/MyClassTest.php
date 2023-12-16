@@ -8,6 +8,7 @@ class MyClassTest extends TestCase
 {
     public function testSum()
     {
-        $this->assertEquals(3, MyClass::sum(1, 2));
+        $myClass = new MyClass();
+        $this->assertEquals(3, $myClass->sum(1, 2));
     }
 }
