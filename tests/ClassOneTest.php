@@ -4,14 +4,14 @@ use PHPUnit\Framework\TestCase;
 
 require_once 'src/bootstrap.php';
 
-class MyClassTest extends TestCase
+class ClassOneTest extends TestCase
 {
     public function testConcatenateStrings()
     {
-        $myClass = new MyClass();
-        $str1 = 'Hello';
-        $str2 = 'World';
-        $expectedResult = 'HelloWorld';
+        $myClass = new ClassOne();
+        $str1 = 'hello';
+        $str2 = 'world';
+        $expectedResult = 'helloworld';
 
         $result = $myClass->concatenateStrings($str1, $str2);
 

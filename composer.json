@@ -4,9 +4,9 @@
         "phpunit/phpunit": "^10.5"
     },
     "autoload": {
-        "psr-4": {
-            "Muz4k\\PhpUnitDemo\\": "src/"
-        }
+        "classmap": [
+            "src"
+        ]
     },
     "authors": [
         {

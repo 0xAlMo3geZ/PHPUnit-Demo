@@ -1,6 +1,6 @@
 <?php
 
-class MyClass
+class ClassOne
 {
     public function concatenateStrings($str1, $str2)
     {
